@@ -269,20 +269,32 @@
   .hero-content {
     position: absolute;
     top: 50%;
-    margin-left: 10%;
     transform: translate(25%, -50%);
   }
   
   .hero-content h2 {
-    text-shadow: white 2px 2px 9px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: white 0px 0px 5px;
     color:rgb(173, 64, 64) ;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
+
+  .hero-content h3 {
+    text-shadow: rgb(253, 252, 252) 0px 0px 5px;
+    -webkit-font-smoothing: antialiased;
+    color:rgb(39, 38, 38) ;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 60%;
+  }
   
   .hero-content h1 span {
-    text-shadow: white 2px 2px 9px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: white 0px 0px 10px;
     color: black;
     font-size: 8rem;
     font-weight: 700;
@@ -337,7 +349,7 @@
   
     .header .hero-img {
       height: 40rem;
-      bottom: -15%;
+      bottom: -10%;
     }
   
     .hero-content {
@@ -356,6 +368,12 @@
     .hero-content h1 span {
       font-size: 4rem;
     }
+
+    .hero-content h3 {
+      font-size: 1.5rem;
+      margin-right: 20% !important;
+    }
+
   
     .hero-content a {
       padding: 1rem 3rem;
