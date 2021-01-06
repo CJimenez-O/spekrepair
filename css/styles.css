@@ -54,7 +54,7 @@
   }
   
   .container {
-    max-width: 120rem;
+    max-width: 80%;
     margin: 0 auto;
   }
   
@@ -87,7 +87,7 @@
   .header {
     position: relative;
     width: 100%;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     background-color: rgb(238, 237, 237);
     overflow: hidden;
   }
@@ -97,15 +97,7 @@
     background-color: var(--black);
   }
   
-  .nav.fix-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: var(--black);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    z-index: 999;
-  }
+ 
   
   .nav.fix-nav .nav-link,
   .nav.fix-nav .logo,
@@ -131,7 +123,7 @@
     align-items: center;
     color: white;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   .nav-list a:hover{
@@ -249,6 +241,34 @@
     }
   }
   
+
+
+  /* Landing 2 */
+
+  .landing{
+    height: 600px;
+    background: url(/images/dims.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .landing h2{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    padding-top: 200px;
+    text-shadow: black 0px 0px 5px;
+  }
+
+  .landing h1{
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+    text-shadow: black 0px 0px 5px;
+  }
+
   /* Hero */
 
   
@@ -332,9 +352,9 @@
   }
   
   @media only screen and (max-width: 996px) {
-    .header {
+    /* .header {
       min-height: 70vh;
-    }
+    } */
   
     .header .hero-img {
       height: 40rem;
@@ -343,9 +363,9 @@
   }
   
   @media only screen and (max-width: 567px) {
-    .header {
+    /* .header {
       min-height: 100vh;
-    }
+    } */
   
     .header .hero-img {
       height: 40rem;
@@ -573,7 +593,7 @@
   .ad{
     padding-top: 4%;
     padding-bottom: 4%;
-    background: url(/images/dims.jpg);
+    background: url(/images/iPhoneRepair-1980x482-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -613,6 +633,7 @@
   .product-banner .left img {
     object-fit: cover;
     height: 100%;
+    margin-left: 20%;
   }
   
   .product-banner .right {
@@ -836,6 +857,37 @@
   }
   
   /* All Products */
+
+  .product-img{
+    background: url('https://www.zagg.com/media/wysiwyg/ZAGG-Brands/NY_ZBs_2400x1200_MB.jpg?auto=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .acces{
+    margin-top: 250px;
+    background-color: #fff;
+    padding: 20px 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    letter-spacing: 5px;
+  }
+
+  .acces:hover{
+    cursor: pointer;
+    background-color: rgb(224, 223, 223);
+  }
+
   .section .top {
     display: flex;
     align-items: center;
