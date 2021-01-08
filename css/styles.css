@@ -64,9 +64,7 @@
   }
   
   @media only screen and (max-width: 1200px) {
-    .container {
-      padding: 0 3rem;
-    }
+    
   
     .container-md {
       padding: 0 3rem;
@@ -117,7 +115,7 @@
     border-radius: 5px;
     color: white;
     height: 70px;
-    width: 250px;
+    width: 170px;
   }
   
   .nav-list {
@@ -400,6 +398,25 @@
     .hero-content a {
       padding: 1rem 3rem;
     }
+
+    .advert-center{
+      display: block !important;
+    }
+
+    .advert-box .content h2{
+      color: white !important;
+      text-shadow: 0px 0px 10px black;
+      }
+  
+      .advert-box .content h4{
+      color: white !important;
+      text-shadow: 0px 0px 10px black ;
+      }
+
+      .advert-box img{
+        height: 80% !important;
+        bottom: 10% !important;
+      }
   }
   
   /* Adverts */
@@ -798,7 +815,8 @@
   /* ========== Contact ========= */
 
   .form{
-    height: 70vh;
+    height: auto;
+    padding-bottom: 50px;
     display: grid;
     align-items: center;
   }
@@ -933,6 +951,18 @@
   }
   
   @media only screen and (max-width: 768px) {
+    .acces{
+      font-size: 15px;
+      width: 90%;
+    }
+
+    
+
+    .contact-in{
+      width: 80%;
+      height: 100%;
+    }
+
     .footer-container {
       grid-template-columns: 1fr;
       row-gap: 2rem;
