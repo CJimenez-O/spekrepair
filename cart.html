@@ -12,6 +12,8 @@
 
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./css/styles.css" />
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  
   <title>Your Cart</title>
 </head>
 
@@ -47,7 +49,7 @@
             <a href="contact.html" class="nav-link scroll-link">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+            <a href="cart.html" class="nav-link icon"><span>0</span></a>
           </li>
         </ul>
       </div>
@@ -63,49 +65,17 @@
   </nav>
 
   <!-- Cart Items -->
-  <div class="container-md cart">
-    <table>
-      <tr>
-        <th>Product</th>
-        <th>Quantity</th>
-        <th>Subtotal</th>
-      </tr>
-      <tr>
-        <td>
-          <div class="cart-info">
-            <img src="./images/iphone-xr-red-select-201809.png" alt="">
-            <div>
-              <p>iPhone XR</p>
-              <span>Price: $499.00</span>
-              <br />
-              <a href="#">remove</a>
-            </div>
-          </div>
-        </td>
-        <td><input type="number" value="1" min="1"></td>
-        <td>$499.00</td>
-      </tr>
-
-    </table>
-
-    <div class="total-price">
-      <table>
-        <tr>
-          <td>Subtotal</td>
-          <td>$499</td>
-        </tr>
-        <tr>
-          <td>Tax</td>
-          <td>$50</td>
-        </tr>
-        <tr>
-          <td>Total</td>
-          <td>$549</td>
-        </tr>
-      </table>
-      <a href="#" class="checkout btn">Proceed To Checkout</a>
+  <div class="container-products">
+    <div class="product-head">
+        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="cart-price sm-hide">PRICE</h5>
+        <h5 class="quantity">QUANTITY</h5>
+        <h5 class="cart-total">TOTAL</h5>
+    </div>
+    <div class="products">
 
     </div>
+</div>
 
   </div>
 
@@ -168,6 +138,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <!-- Custom Script -->
   <script src="./js/index.js"></script>
+  
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
 
 </html>
