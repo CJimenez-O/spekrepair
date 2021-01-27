@@ -65,7 +65,7 @@ let products = [
     },
     {
         name: "iPhone SE",
-        tag: "iPhoneSe",
+        tag: "iPhoneSE",
         price: 399,
         inCart: 0
     }
