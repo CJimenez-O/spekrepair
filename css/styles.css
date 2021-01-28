@@ -168,6 +168,11 @@
       transition: all 500ms ease-in-out;
       z-index: 100;
     }
+
+    .logo img{
+      height: 40px;
+      width: 90px;
+    }
   
     .menu.show {
       left: 0;
@@ -547,7 +552,7 @@
   }
   
   .product-footer .price {
-    color: #ff7c9c;
+    color: black;
     font-size: 2rem;
   }
   
@@ -594,7 +599,7 @@
   }
   
   .product-header .icons span:hover {
-    background-color: #ff7c9c;
+    background-color: rgb(99, 8, 8);
     color: #fff;
   }
   
@@ -933,6 +938,7 @@
     background-color: var(--black);
     padding: 6rem 1rem;
     line-height: 3rem;
+    margin-top: 30px;
   }
   
   .footer-center span {
@@ -1368,7 +1374,6 @@
     font-size: 24px;
     color: red;
     padding-top: 30px;
-    padding-bottom: 30px;
     font-weight: 600;
   }
 
@@ -1377,7 +1382,7 @@
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
   }
 
@@ -1438,16 +1443,16 @@
 /* ----------------- CART PAGE --------------- */
 
 .container-products {
-  max-width: 650px;
+  max-width: 1050px;
   justify-content: space-around;
   margin: 0 auto;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 200px;
 }
 
 .container-products ion-icon {
   font-size: 25px;
-  color: blue;
+  color: red;
   margin-left: 10px;
   margin-right: 10px;
   cursor: pointer;
@@ -1455,7 +1460,7 @@
 
 .product-head {
   width: 100%;
-  max-width: 650px;
+  max-width: 2050px;
   display: flex;
   justify-content: flex-start;
   border-bottom: 4px solid lightgray;
@@ -1524,6 +1529,16 @@
 
 .basketTotal {
   width: 10%;
+}
+
+.buy{
+  float: right;
+  margin-right: 40px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px 5px;
+  border-radius: 10px;
 }
 
 @media(max-width: 500px) {
