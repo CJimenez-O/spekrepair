@@ -179,10 +179,15 @@ function displayCart() {
             <div class="total">$${item.inCart * item.price}</div>`;
         });
 
+        let tax = cart * 0.075;
         productContainer.innerHTML += `
+        <div class="basketTotalContainer">
+            <h4 class="basketTotalTitle">Tax</h4>
+            <h4 class="basketTotal">$ ${tax.toFixed(2)}</h4>
+        </div>
             <div class="basketTotalContainer">
                 <h4 class="basketTotalTitle">SubTotal</h4>
-                <h4 class="basketTotal">$${cart}</h4>
+                <h4 class="basketTotal">$${(cart + tax).toFixed(2) }</h4>
             </div>`
 
         deleteButtons();
