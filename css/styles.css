@@ -244,6 +244,8 @@
     .nav-link.icon {
       display: none;
     }
+
+    
   }
   
 
@@ -988,11 +990,15 @@
   
   @media only screen and (max-width: 768px) {
     .acces{
-      font-size: 15px;
+      font-size: 15px !important;
       width: 90%;
+      padding-left: 40px !important;
+      margin-top: 100px !important;
     }
 
-    
+    .product-img{
+      height: 250px !important;
+    }
 
     .contact-in{
       width: 80%;
@@ -1423,6 +1429,10 @@
   @media only screen and (max-width: 650px) {
     .steps{
       display: block;
+    }
+
+    .steps p{
+      font-size: 15px;
     }
 
     .notify h1{
