@@ -23,52 +23,32 @@
 
 <body>
   <!-- Navigation -->
-  <nav class="nav">
-    <div class="navigation container">
-      <div class="logo">
-        <img src="/images/logo.jpg" alt="">
-      </div>
-
-      <div class="menu">
-        <div class="top-nav">
-          <div class="logo">
-            <h1>Codevo</h1>
-          </div>
-          <div class="close">
-            <i class="bx bx-x"></i>
-          </div>
-        </div>
-
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link scroll-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="mailin.html" class="nav-link scroll-link">Mail-In</a>
-          </li>
-          <li class="nav-item">
-            <a href="product.html" class="nav-link scroll-link">Products</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link scroll-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="cart.html" class="nav-link icon cart"> <i class="fas fa-shopping-cart"></i>
-
-              <span class="counter">0</span></a>
-          </li>
-        </ul>
-      </div>
-
-      <a href="cart.html" class="cart-icon">
-        <i class="bx bx-shopping-bag"></i>
-      </a>
-
-      <div class="hamburger">
-        <i class="bx bx-menu"></i>
-      </div>
-    </div>
-  </nav>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+    </span>
+    <a href="#" class="logo"> <img src="/images/logo.jpg" alt=""> </a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a href="product.html" class="nav-links">Products</a>
+        </li>
+        <li>
+            <a href="mailin.html" class="nav-links">Mail-In</a>
+        </li>
+        <li>
+            <a href="contact.html" class="nav-links">Contact </a>
+        </li>
+        <li class="nav-item">
+              <a href="cart.html" class="nav-links cart"> <i class="fas fa-shopping-cart"></i>
+      
+                <span class="counter">0</span></a>
+            </a>
+        </li>
+    </ul>
+</nav>
 
   <!-- Cart Items -->
   <div class="container-products">
