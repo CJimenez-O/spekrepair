@@ -955,6 +955,11 @@
   
   /* All Products */
 
+  .noStock{
+    text-align: center;
+    font-weight: 600;
+  }
+
   .product-img{
     background: url('https://www.zagg.com/media/wysiwyg/ZAGG-Brands/NY_ZBs_2400x1200_MB.jpg?auto=webp');
     background-repeat: no-repeat;
