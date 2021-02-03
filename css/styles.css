@@ -359,14 +359,15 @@
       }
 
       .advert-box img{
-        height: 80% !important;
+        height: 90% !important;
+        width: 90% !important;
         bottom: 10% !important;
       }
   }
   
   /* Adverts */
   .section {
-    padding: 10rem 0 5rem 0;
+    padding: 5rem 0 5rem 0;
   }
   
   .advert-center {
