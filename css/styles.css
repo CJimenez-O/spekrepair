@@ -609,14 +609,14 @@
   }
   
   .product-banner .content h2 {
-    color: rgb(173, 64, 64);
+    color: white;
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
   
   .product-banner .content .discount {
-    color: rgb(173, 64, 64);
+    color: white;
   }
   
   .product-banner .content h1 span {
@@ -881,6 +881,11 @@
     padding: 6rem 1rem;
     line-height: 3rem;
     margin-top: 30px;
+  }
+
+  .footer-center h4{
+    font-size: 22px;
+    font-weight: 500;
   }
   
   .footer-center span {
