@@ -606,6 +606,7 @@
     align-self: center;
     text-align: center;
     padding: 1.6rem;
+    margin-right: 15%;
   }
   
   .product-banner .content h2 {
@@ -635,6 +636,7 @@
     .ad .content h1 span {
       font-size: 3rem;
     }
+
   }
   
   @media only screen and (max-width: 768px) {
@@ -674,6 +676,10 @@
   
     .product-banner .content a {
       padding: 1rem 3rem;
+    }
+
+    .product-banner .right{
+      margin-right: unset !important;
     }
   }
   
