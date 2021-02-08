@@ -933,7 +933,7 @@
     }
   }
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 968px) {
     .acces{
       font-size: 15px !important;
       width: 90%;
@@ -946,6 +946,7 @@
     }
 
     .contact-in{
+      display: block;
       width: 80%;
       height: 100%;
     }
