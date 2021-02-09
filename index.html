@@ -13,6 +13,9 @@
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./css/styles.css" />
   <meta name="Description" content="website for personal electronic repair and purchase of electronics">
+  <!-- animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <meta name="author" content="Chris Jimenez">
   <title>Spek Repair | Home</title>
   <link rel="shortcut icon" type="image/png" class="icon" href="images/unnamed.jpg">
@@ -63,7 +66,7 @@
        Phone and <br>
        Tablet Repairs
     </h1>
-    <a class="btn" href="mailin.html">Repair now</a>
+    <a class="btn" href="mailin.html" data-aos="slide-up" data-aos-duration="2000">Repair now</a>
   </div>
 
   <!-- Main -->
@@ -137,7 +140,7 @@
       </div>
       <div class="testimonial-center container">
 
-        <div class="testimonial">
+        <div class="testimonial" data-aos="slide-right">
           <div class="repair-title">
             <h1>Computers</h1>
           </div>
@@ -147,7 +150,7 @@
           </p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-aos="slide-up">
           <div class="repair-title">
             <h1>Phones</h1>
           </div>
@@ -157,7 +160,7 @@
           </p>
         </div>
 
-        <div class="testimonial">
+        <div class="testimonial" data-aos="slide-left">
           <div class="repair-title">
             <h1>Consoles</h1>
           </div>
@@ -257,7 +260,7 @@
     <!-- Testimonials -->
     <section class="section">
       <div class="testimonial-center container">
-        <div class="testimonial">
+        <div class="testimonial" data-aos="fade-up-right">
           <span>&ldquo;</span>
           <p>
             "Dropped my phone in water and these guys were able to thankfully get it up and running! Strongly recommend"
@@ -272,7 +275,7 @@
           
           <h4>Dan Burr</h4>
         </div>
-        <div class="testimonial">
+        <div class="testimonial" data-aos="fade-up">
           <span>&ldquo;</span>
           <p>
             "Very communicative. They were able to replace my screen quick and fast!"
@@ -287,7 +290,7 @@
          
           <h4>Alen Mendez</h4>
         </div>
-        <div class="testimonial">
+        <div class="testimonial" data-aos="fade-up-left">
           <span>&ldquo;</span>
           <p>
             "Went in for a charge port replacement and they just cleaned my chargeport for free and saved me so much money! Will come back."
@@ -382,6 +385,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <!-- Custom Script -->
   <script src="./js/index.js"></script>
+  <!-- Animations -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
