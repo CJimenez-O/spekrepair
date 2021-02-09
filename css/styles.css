@@ -125,6 +125,7 @@
 }
 
 .logo {
+    padding-top: 4px;
     display: inline-block;
     margin-left: 20px;
 }
