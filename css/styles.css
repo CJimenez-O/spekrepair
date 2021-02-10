@@ -434,6 +434,7 @@
   .title {
     margin-bottom: 7rem;
     text-align: center;
+    color:black;
   }
   
   .title h1 {
@@ -995,7 +996,11 @@
   }
 
   .repair-title{
-    padding-bottom: 5%;
+    color: white;
+    margin-bottom: 5%;
+    background-color: rgb(173, 64, 64);
+    border-radius: 5px;
+    letter-spacing: 1px;
   }
 
   .crackedPhone{
