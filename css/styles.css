@@ -478,6 +478,9 @@
   
   .advert-box .content h4{
     color: black;
+    text-shadow: 0px 0px 10px white;
+    font-size: 18px;
+    font-weight: 600;
   }
   /* Featured Products */
   
@@ -550,6 +553,8 @@
   .rating {
     color: #43b3d9;
   }
+
+ 
   
   .product-footer .price {
     color: black;
@@ -794,6 +799,11 @@
   .testimonial .img-cover img {
     height: 100%;
     object-fit: cover;
+  }
+
+  .testimonial h2{
+    font-size: 22px;
+    font-weight: 600;
   }
   
   .testimonial h4 {
