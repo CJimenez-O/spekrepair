@@ -370,7 +370,54 @@
         bottom: 10% !important;
       }
   }
-  
+
+  /* warranty */
+  .service-ad{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    margin-top: 3%;
+    margin-left: 5%;
+  }
+
+  .service-ad img{
+    height: 90px;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .ad-text{
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+
+  .ad-text-2{
+    padding-top: 5%;
+    padding-left: 15%;
+  }
+
+  .service{
+    display: flex;
+    margin-right: 10%;
+    padding-left: 2%;
+    background-color: rgb(173, 64, 64);
+    border-radius: 5px;
+    
+  }
+
+  .service-2{
+    display: flex;
+    margin-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(173, 64, 64);
+    border-radius: 5px;
+  }
+
+
   /* Adverts */
   .section {
     padding: 5rem 0 5rem 0;
