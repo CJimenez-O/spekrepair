@@ -476,6 +476,9 @@
     color: var(--black);
   }
   
+  .advert-box .content h4{
+    color: black;
+  }
   /* Featured Products */
   
   .title {
